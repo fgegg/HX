@@ -16,33 +16,3 @@
     "repository": "https://github.com/Misaka-blog/HX",
     "stack": "container"
 }
-{
-  "name": "Heroku_v2ray",
-  "description": "DaoChen's v2",
-  "keywords": [
-    ""
-  ],
-  "env": {
-    "PROTOCOL": {
-      "description": "协议VMess或VLESS，请填小写的vmess或vless",
-      "value": "vmess",
-      "required": true
-    },
-    "UUID": {
-      "description": "用户的主ID",
-      "value": "",
-      "required": false
-    },
-    "WS_PATH": {
-      "description": "websocket路径",
-      "value": "/daochen6",
-      "required": true
-    }
-  },
-  "website": "",
-  "repository": "",
-  "stack": "container",
-  "features": [
-    "runtime-dyno-metadata"
-  ]
-}
